@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="AttackPattern" format=3 uid="uid://ui71f1d31ayx"]
+
+[ext_resource type="Script" uid="uid://wxgx6md381lb" path="res://resource/attacks/attack_pattern.gd" id="1_lxtvb"]
+
+[resource]
+script = ExtResource("1_lxtvb")
+attack_name = "弓攻撃"
+attack_type = 1
+attack_range = 3
+metadata/_custom_type_script = "uid://wxgx6md381lb"

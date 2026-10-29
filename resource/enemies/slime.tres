@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="EnemyData" format=3 uid="uid://cvyhbye2nx6je"]
+
+[ext_resource type="Script" uid="uid://wxgx6md381lb" path="res://resource/attacks/attack_pattern.gd" id="1_du3l2"]
+[ext_resource type="Script" uid="uid://crsc0jqvpdp5n" path="res://resource/enemies/enemy_data.gd" id="2_7t3qu"]
+[ext_resource type="Resource" uid="uid://dhh8lndivcm86" path="res://resource/attacks/sword_attack.tres" id="2_tucuc"]
+
+[resource]
+script = ExtResource("2_7t3qu")
+enemy_name = "スライム"
+attack_patterns = Array[ExtResource("1_du3l2")]([ExtResource("2_tucuc")])
+metadata/_custom_type_script = "uid://crsc0jqvpdp5n"

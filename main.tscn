@@ -1,3 +1,7 @@
 [gd_scene format=3 uid="uid://dn853im02gxod"]
 
+[ext_resource type="PackedScene" uid="uid://bnwjln7y2qtxw" path="res://maps/dungeon_map.tscn" id="1_ig7tw"]
+
 [node name="Main" type="Node2D" unique_id=1902753977]
+
+[node name="Map" parent="." unique_id=553723407 instance=ExtResource("1_ig7tw")]

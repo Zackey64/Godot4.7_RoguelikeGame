@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://7cu600iulnj1"]
+
+[ext_resource type="PackedScene" uid="uid://g4pxxeutguhv" path="res://objects/dungeon_object.tscn" id="1_3qwy0"]
+[ext_resource type="Script" uid="uid://ccnioo124gcs6" path="res://objects/enemy.gd" id="2_3qwy0"]
+[ext_resource type="Script" uid="uid://wxgx6md381lb" path="res://resource/attacks/attack_pattern.gd" id="3_a3dev"]
+
+[node name="Entity" unique_id=1297111780 instance=ExtResource("1_3qwy0")]
+script = ExtResource("2_3qwy0")
+attack_patterns = Array[ExtResource("3_a3dev")]([null])
+max_health = 10

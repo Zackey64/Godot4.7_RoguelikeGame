@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://crd2qwx2ug0du"]
+
+[ext_resource type="PackedScene" uid="uid://7cu600iulnj1" path="res://objects/entity.tscn" id="1_882u1"]
+[ext_resource type="Resource" uid="uid://cvyhbye2nx6je" path="res://resource/enemies/slime.tres" id="2_7jlpp"]
+
+[node name="Enemy" unique_id=1297111780 instance=ExtResource("1_882u1")]
+enemy_data = ExtResource("2_7jlpp")

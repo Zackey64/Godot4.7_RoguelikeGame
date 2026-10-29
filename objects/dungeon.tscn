@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://c1hrm2uq3rbtk"]
+
+[ext_resource type="PackedScene" uid="uid://bnwjln7y2qtxw" path="res://maps/dungeon_map.tscn" id="1_pubep"]
+
+[node name="Dungeon" type="Node2D" unique_id=248109947]
+
+[node name="DungeonMap" parent="." unique_id=553723407 instance=ExtResource("1_pubep")]
+map_width = null
+map_height = null
+
+[node name="Entities" type="Node2D" parent="." unique_id=1737069358]
+
+[node name="Items" type="Node2D" parent="." unique_id=1714136632]
